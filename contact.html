@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+       .header{
+    width: 100%;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: rgb(233, 231, 231);
+}
+.navbar{
+	background-color: white;
+	font-family:calibri;
+	height: 120px;
+    width: 100%;
+
+}
+.navdiv{
+	display: flex;
+}
+.logo {
+	
+	line-height: 65px;
+	padding-left: 50px;
+}
+
+.navbar li{
+	list-style: none;
+}
+.navbar li a{
+	color: black;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+	padding-left: 70px;
+
+}
+
+.navbar ul{
+	display: flex;
+	line-height: 70px;
+	padding-left: 300px;
+
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    color: rgb(0, 0, 99);
+    text-align: center;
+    font-size: 40px;
+    padding-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p{
+    color: rgb(1, 1, 92);
+    text-align: center;
+}
+.all{
+   
+    height: 800px;
+}
+.card{
+    background-color:white;
+    height: 100px;
+    width: 300px;
+    border-radius: 5%;
+    box-shadow: 2px 4px 50px 1px black;
+
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   margin-top: 20px;
+}
+.bottom{
+    height: 200px;
+    width:700px;
+   text-align: center;
+   background-color:skyblue;
+   margin-left: 290px;
+   font-size: xx-large;
+   border-radius: 20px;
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 200px;
+    text-align: center;
+    padding-top: 30px;
+}
+.select{
+    height: 500px;
+   background-color: rgb(243, 243, 243);
+   border-radius: 5px;
+   margin-right: 100px;
+   padding: 20px;
+   width: 500px;
+
+}
+#request{
+    padding: 10px 5%;
+width: 100%;
+height: 60vh;
+background-color: #353535;
+display: flex;
+justify-content: space-between;
+color: #fff;
+}
+.left-side img{
+    padding-left: 150px;
+    padding-top: 90px;
+}
+.left-side p{
+    margin-top: 10px;
+    padding-left: 177px;
+    font-family: sans-serif;
+    color:rgb(186, 186, 186);
+}
+.left-side button{
+background-color: #353535;
+height: 55px;
+border: none;
+font-size: 16px;
+box-shadow: 4px 4px rgba(0,0,0,.3), -4px -4px rgba(0,0,0,.3);
+color: rgb(186, 186, 186);
+border-radius: 5px;
+padding-left: 150px;
+justify-content: center;
+align-items: center;
+text-align: center;
+
+}
+.right-side{
+    display: flex;
+    font-size: 15px;
+    margin-top: 5%;
+}
+.right-side div{
+    margin: 35px;
+}
+.right-side h4{
+    margin-bottom: 20%;
+}
+.right-side p{
+    line-height: 20px;
+    color: rgb(143, 140, 140);
+    padding-right: 130px;
+}
+.horizontal-line{
+    width: 1px;
+    background-color: darkgray;
+    margin-top: 30px;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+    width: 100%;
+    background-color: #353535;
+    color: white;
+    height: 200px;
+}
+.icons i{
+    margin: 10px;
+    color: black;
+    padding: 5px;
+}
+hr{
+    border: 0.01px solid;
+    color: rgb(75, 75, 75);
+}
+
+.map-form{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.form1{
+    background-color: white;
+    padding: 50px;
+    border-radius: 20px;
+    margin-left: 20px;
+
+}
+
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 90px 0;
+
+}
+
+.box1 ,.box2, .box3{
+    background-color:#fff;
+    border-radius: 20px;
+    font-size: large;
+    font-weight: 500px;
+    padding: 35px;
+    width: 350px;
+    text-align: center;
+}
+
+</style>
+<body>
+    <header class="navbar">
+        <nav class="navdiv">
+           <div class="logo">
+            <img src="img/logostl.png" width="150px" height="150px" >
+           </div>
+        <ul>
+          
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="product.html">Our product</a></li>
+            <li><a href="contact.html">Contact</a></li>
+           <button style="background-color: red;  font-size: 17px; width: 150px; color: white; height: 50px; margin-top: 10px; margin-left: 50px; border: 2px solid red;">Request Demo</button>
+        </ul>
+        </nav>
+    </header>
+    <div class="all">
+        <h1><b>LET'S CONNECT </b></h1>
+        <P>We’d love to hear from you and we’d love to help<br>
+            you start exceeding your company goals.</P>
+        <div class="main">
+            <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.400671927706!2d36.78892135620119!3d-1.2622393266607859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10d6c882173b%3A0x72506dd1868b6f7!2sInstitute%20of%20Software%20Technologies!5e0!3m2!1sen!2ske!4v1709108606842!5m2!1sen!2ske" width="500" height="550" style="border:0; margin-left: 100px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="select">
+                <form id="registrationForm" action="process_registration.php" method="post">
+
+                    <label for="firstname"><b>Name</b></label><br><br>
+                    <input type="text" placeholder="Enter first name" id="firstname" style="width: 180px; height: 35px;" name="firstname" required>
+                    <input type="text" placeholder="Enter last name" id="lastname" style="width: 180px; margin-left: 40px;  height: 35px;" name="lastname" required>
+            <br><br>
+                    <label for="email"><b>Email </b></label><br><br>
+                    <input type="email" id="email" style="width: 440px; height: 35px;"name="email" required>
+            <br><br>
+                    <label for="phone"><b>Phone</b></label><br><br>
+                    <input type="tel" id="phone" style="width: 440px; height: 35px;" name="phone" required>
+            <br><br>
+            <label for="gender"><b>Select Gender</b></label><br>
+            <select id="gender" style="width: 452px; height: 40px;" name="gender" required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>        
+            <br><br>
+            <label for="gender"><b>Select Country</b></label> <br>
+            <select id="gender" style="width: 452px; height: 40px;" name="gender" required>
+                <option value="male">Kenya</option>
+                <option value="female">Uganda</option>
+                <option value="other">Tanzania</option>
+            </select>
+            </div>
+        </div>
+
+        <div class="cards">
+            <div class="card">
+                <p>
+                    West Point Building, 7th Floor, Mpaka Road,<br> Westlands, Nairobi 
+                </p>
+            </div>
+            <div class="card" >
+
+                <p>
+                    
+                    +254 709 609 000 <br>
+                    +254 722 207 450
+
+                </p>
+            </div>
+            <div class="card"> 
+                <p>
+                    info@stl-horizon.com<br>
+                    P.O Box 17797 – 00500
+
+                </p>
+            </div>
+        </div>
+
+        </div>
+    </div>
+    <div class="bottom">
+      
+        <h5> Ready to enhance board productivity and decision-making? Request a demo _</h5>
+ 
+     <button style="background-color: red;  font-size: 17px; width: 150px; color: white; height: 50px; border: 2px solid red;"> I AM READY</button>
+ </div>
+
+    
+</body>
+
+<div id="request">
+    <div class="left-side">
+    <img class="" src="logostl-white.png" alt="">
+    <br><br>
+    <p>Download Our Apps</p>
+    <button>Play store</button>
+    <button>Appstore</button>
+    </div>
+    <div class="horizontal-line">
+    
+    </div>
+    <div class="right-side">
+    <div>
+    <h4>Products</h4>
+    <p>eHorizon eBoard</p>
+    <p>eHorizon eParliament</p>
+    <p>eHorizon HRMS</p>
+    <p>eHorizon Mkataba</p>
+    </div>
+    
+    <div>
+    <h4>Company</h4>
+    <p>Home</p>
+    <p>About STL</p>
+    <p>Contact Us</p>
+    <p>Security</p>
+    </div>
+    
+    <div>
+    <h4>Discover</h4>
+    <p>Blog</p>
+    <p>Partners</p>
+    <p>CRS</p>
+    <p>Career 
+        <br>
+        Opportunities</p>
+    </div>
+    </div>
+    </div>
+    <div class="foot">
+    <div class="copy-write">
+    <p>©1991-2024 Software Technologies Ltd. All Rights Reserved | Privacy Policy | Terms & Conditions</p>
+    </div>
+    
+    <div class="icons">
+    <i class="fa-brands fa-linkedin"></i>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-facebook"></i>
+    </div>
+    </div>  
+</html>
